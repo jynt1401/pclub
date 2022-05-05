@@ -1,0 +1,521 @@
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+    display: inline-block;
+    position: fixed;
+    background-color: #eb972a;
+    width: 100%;
+    height: 60px;
+    z-index: 5;
+}
+
+.left{
+    display: inline-block;
+    position: absolute;
+    
+    margin: 10px 10px;
+}
+.left img{
+    display: inline-block;
+    margin: 2px 0px;
+    width: 150px;
+    filter: invert(100%);
+}
+.name{
+    display: inline-block;
+    
+    color: white;
+}
+.mid{
+    
+    display: inline-block;
+    position: absolute;
+    margin: 20px 100px;
+}
+ul{
+    display: inline-block;
+    margin: 0px 150px;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 21px;
+}
+ul li a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 0px 0px;
+    padding: 5px;
+}
+ul li a:hover{
+    color: rgb(51, 25, 12);
+    
+    border-radius: 20px;
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 80px;
+   
+}
+.btn1{
+    margin: 0px 0px;
+    color: #413205;
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid #413205;
+}
+.btn1:hover{
+    color: white;
+    background-color: rgb(51, 25, 12);
+}
+.btn{
+    color: #413205;
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid #413205;
+}
+.wel{
+    
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    color: white;
+    font-size: 90px;
+    
+}
+.company{
+   
+    display: inline-block;
+    position: absolute;
+   top: 200px;
+    left: 100px;
+    color: white;
+    font-size: 96px;
+}
+
+.container {
+    
+    border-radius: 20px;
+    display: inline-block;
+    position: absolute;
+    bottom: 90px;
+    left: 180px;
+    background-color:#eea149;
+    
+    width: 500px;
+    height: 300px;
+
+}
+.container h1{
+    margin: 15px 10px;
+    color: white;
+    text-align: center;
+}
+
+.container h4{
+    color: rgb(51, 25, 12);
+    text-align: center;
+    
+    top: 80px;
+    left: 135px;
+    margin: 0px 0px;
+}
+.container h5{
+    color:rgb(51, 25, 12);
+    font-size: 15px;
+    display: inline-block;
+    position: absolute;
+    top: 210px;
+    right: 30px;
+}
+.form input{
+    
+    text-align: center ;
+    width: 425px;
+    margin: 4px 25px;
+    border: 1px solid rgb(51, 25, 12);
+    font-size: 20px;
+    border-radius: 10px;
+}
+#email{
+    display: inline-block;
+    position: absolute;
+    top: 110px;
+}
+#password{
+    display: inline-block;
+    position: absolute;
+    top: 150px;
+}
+
+#submit{
+    color: white;
+    width: 90px;
+    margin: 120px 10px 0px 25px;
+   
+    font-size: 15px;
+    background-color:rgb(51, 25, 12);
+    cursor: pointer;
+}
+.offer{
+    display: inline;
+    position: relative;
+    top: 80px;
+    left: 70px;
+    height: 100%;
+   
+    width: 90%;
+}
+.deal{
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+    
+}
+.hot{
+    display: inline-block;
+    position: relative;
+    top: 35px;
+    left: 230px;
+}
+.BEST{
+    display: inline-block;
+    position: relative;
+    top: 35px;
+    left: 460px;
+}
+.FEATURE{
+    display: inline-block;
+    position: relative;
+    top: 35px;
+    left: 680px;
+}
+#heading::after{
+   content: '';
+   width:0%;
+   height: 3px;
+   background: #e49013;
+   display: block;
+   margin: auto;
+   transition: 0.5s;
+
+}
+#heading:hover::after{
+    width: 100%;
+}
+
+.box1{
+    display: inline-block;
+    position: relative;
+    top: 150px;
+    width: 40%;
+    height: 400px;
+
+    background-image: url('https://thoughtcatalog.com/wp-content/uploads/2018/01/ian-dooley-347962.jpg?w=640');
+    left: 200px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.box2{
+    background-image: url('https://vuejsexamples.com/content/images/2017/09/Flip-clock-countdown-Vue.gif');
+    
+    display: inline-block;
+    position: relative;
+    top: -175px;
+    width: 35%;
+    height: 400px;
+    left: 196px;
+    background-color: #faf1f1;
+}
+.box2 img{
+    z-index: -1;
+}
+.box2 h1{
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 50px;
+    padding: 20px 0px;
+    text-align: center;
+    color: red;
+}
+.sale{
+    text-decoration: 4px underline red;
+    display: inline-block;
+    position: relative;
+    bottom: 90px;
+    left: 40%;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(51, 25, 12);
+}
+.end{
+    display: inline-block;
+    position: absolute;
+    top:  1700px;
+    
+    width: 100%;
+    height: 400px;
+    background-color: #f3a43c;
+}
+.leftbox{
+    display: inline-block;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    width: 200px;
+    height: 300px;
+    
+}
+h3{
+    display: inline-block;
+    position: absolute;
+    top: 25px;
+    left: 60px
+}
+
+ol li{
+    display: block;
+    position: relative;
+    margin: 10px 0px;
+}
+ol li a{
+    display: inline-block;
+    position: relative;
+    top: 60px;
+    left: 60px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    
+}
+.midbox{
+    display: inline-block;
+    position: absolute;
+    left: 330px;
+    top: 50px;
+    width: 200px;
+    height: 300px;
+    
+}
+.midbox1{
+    display: inline-block;
+    position: absolute;
+    left: 600px;
+    top: 50px;
+    width: 200px;
+    height: 300px;
+    
+}
+.rightbox1{
+    display: inline-block;
+    position: absolute;
+    right: 680px;
+    top: 50px;
+    width: 2px;
+    height: 300px;
+    background-color: white;
+   
+}
+.rightbox{
+    display: inline-block;
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    width: 600px;
+    height: 200px;
+    
+}
+.rightbox h3{
+    font-size: 20px;
+    color: rgb(5, 5, 5);
+}
+.final{
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.final form input{
+
+    display: inline-block;
+    position: relative;
+    font-size: 23px;
+
+}
+.final form input[type='text']{
+    width: 300px;
+    height: 33px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    border-radius: 20px 0px 0px 20px;
+
+}
+.final form input[type='submit']{
+    color: white;
+    font-size: 17px;
+    position: relative;
+    top: -3px;
+    width: 115px;
+    height: 33px;
+    left: -5px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    border-radius: 0px 20px 20px 0px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(51, 25, 12);
+}
+.final form input[type='submit']:hover{
+    background-color: rgb(255, 218, 10);
+}
+.null{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    
+    
+}
+.photo{
+
+    width: 100%;
+    height: 350px;
+    background-image: url(http://cdn.shopify.com/s/files/1/0510/7489/articles/MachinCreationsInc-seotool-28081-TheDifferentTypes-BlogBanner1_1024x1024.jpg?v=1576163202);
+    opacity: 0.6;
+    z-index: -1;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.photo h1{
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    right:  150px;
+    font-size: 80px;
+    color: white;
+}
+.photo p{
+    text-align: right;
+    display: inline-block;
+    position: absolute;
+    width: 400px;
+    top: 160px;
+    right: 160px;
+    color: white;
+}
+.a{
+    background-color: #f7f3ee;
+    display: inline-block;
+    position: absolute;
+    top: 600px;
+    left: 250px;
+    
+    width: 20%;
+    height: 350px;
+}
+.a h2{display: inline-block;
+    position: absolute;
+    left:100px;
+    top: 10px;
+    color: rgb(163, 90, 22);
+}
+.a p{display: inline-block;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    right: 20px;
+
+}
+.b{
+    background-color: #f7f3ee;;
+    display: inline-block;
+    position: absolute;
+    top: 600px;
+    left: 650px;
+
+    
+    width: 20%;
+    height: 350px;
+}
+.b h2{display: inline-block;
+    position: absolute;
+    left:100px;
+    top: 10px;
+    color: rgb(163, 90, 22);
+}
+.b p{display: inline-block;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    right: 20px;
+
+}
+.c{
+    background-color: #f7f3ee;;
+    display: inline-block;
+    position: absolute;
+    top: 600px;
+    right: 170px;
+    
+    width: 20%;
+    height: 350px;
+}
+.c h2{display: inline-block;
+    position: absolute;
+    left:100px;
+    top: 10px;
+    color: rgb(163, 90, 22);
+}
+.c p{display: inline-block;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    right: 20px;
+
+}
+.abc{
+    display: inline-block;
+    position: absolute;
+    top: 700px;
+    left: 250px;
+    width: 600px;
+    height: 400px;
+    background-image: url(https://www.addictioncenter.com/app/uploads/2020/01/online_shopping_addiction-scaled.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.def h1{
+    
+    display: inline-block;
+    position: absolute;
+    top: 1080px;
+    left: 900px;
+    font-size: 40px;
+
+}
+.def p{
+    display: inline-block;
+    position: absolute;
+    top: 1150px;
+    left: 900px;
+    width: 400px;
+    height: 200px;
+    font-size: 20px;
+}
