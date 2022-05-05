@@ -1,2 +1,2 @@
 
-https://github.com/jynt1401/pclub.git
+https://jynt1401.github.io/pclub/
