@@ -28,9 +28,6 @@ https://jynt1401.github.io/pclub/
 
 
 
-@kwabenacecil
-kwabenacecil on Nov 16, 2021
-twitter
 
 
 <!-- PROJECT LOGO -->
