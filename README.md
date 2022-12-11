@@ -1,6 +1,8 @@
-# Project link
+# Project
 
 https://jynt1401.github.io/pclub/
+
+The News Website Project is a web application that features current and updated news with the exact date and time of its last update. The news has been extracted from the reputed and esteemed news sources and provides proper information to the news readers about the global scenarios only in the presence of the internet even in the absence of a television. Over the single platform of the news website, the passionate readers can get the most updated news from the various reputed news sources. The website offers its users to read news from different sectors and also provides the option for searching for specific news. The News Website Project also provides its readers the offer for selecting the news category of their own choice.
 
 
 
