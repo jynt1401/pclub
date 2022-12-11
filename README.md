@@ -9,9 +9,11 @@ The News Website Project is a web application that features current and updated 
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project!
+
 [Screenshot (130)](https://user-images.githubusercontent.com/100084399/206893157-a2782c4f-56c4-48ce-ae66-77caff0e0372.png)
 
 ![Screenshot (131)](https://user-images.githubusercontent.com/100084399/206893165-62adce1d-5de0-481b-b9e6-3ea59096af95.png)
+
 ![Screenshot (132)](https://user-images.githubusercontent.com/100084399/206893172-7fc5c13b-6e81-48a4-a39b-67a6252a144c.png)
 
 
